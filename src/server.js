@@ -122,7 +122,7 @@ async function updateMetadata(userId) {
 		const json = await fetch('https://defly.monster/api/eliteTeams');
 		const data = await json.json();
 
-		team.forEach((team) => {
+		teamData.forEach((team) => {
 			const player = data[team].find((i) => i.note == userId);
 			if (player) metadata['elite_team'] = 1;
 		});
