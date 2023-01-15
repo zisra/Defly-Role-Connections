@@ -1,5 +1,6 @@
 import express from 'express';
 import cookieParser from 'cookie-parser';
+import fetch from 'node-fetch';
 
 import config from './config.js';
 import * as discord from './discord.js';
