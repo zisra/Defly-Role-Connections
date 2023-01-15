@@ -112,7 +112,7 @@ async function updateMetadata(userId) {
 		// This data could be POST-ed to this endpoint, but every service
 		// is going to be different.  To keep the example simple, we'll
 		// just generate some random data.
-		let teamData = [blue, 'dark-green', red, orange, green, 'sky-blue'];
+		let teamData = ['blue', 'dark-green', 'red', 'orange', 'green', 'sky-blue'];
 
 		metadata = {
 			elite_team: 0,
